@@ -1,4 +1,4 @@
-### Sales Dashboard 
+# Sales Dashboard 
 
 ## 1. Project Title / Headline
 
