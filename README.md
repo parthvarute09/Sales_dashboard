@@ -35,7 +35,7 @@ The data spans multiple years, enabling trend and performance analysis over time
 
 ## 5. Features / Highlights
 
-# Business Problem
+### Business Problem
 
 Organizations often struggle to gain a clear, consolidated view of sales performance across multiple markets and products.
 Key questions such as:
@@ -56,7 +56,7 @@ To deliver an interactive and insight-driven dashboard that:
 * Highlights revenue trends and performance fluctuations over time
 * Supports strategic planning and performance optimization
 
-## Walkthrough of Key Visuals
+### Walkthrough of Key Visuals
 
 **Key KPIs (Top Section)**
 
@@ -88,7 +88,7 @@ To deliver an interactive and insight-driven dashboard that:
 * Displays product-level revenue contribution
 * Identifies top-selling and underperforming products
 
-## Business Impact & Insights
+### Business Impact & Insights
 
 * **Market Optimization:** Identifies high-performing and underperforming markets for targeted strategies
 * **Customer Focus:** Enables prioritization of high-value customers
