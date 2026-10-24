@@ -1,102 +1,109 @@
-# Sales Dashboard 
+# 📊 Sales Dashboard: Market, Customer & Product Performance Insights
 
-## 1. Project Title / Headline
+An interactive Power BI dashboard designed to analyze multi-year sales data and uncover insights into revenue trends, market performance, customer contributions, and product-level sales.
 
-**Sales Dashboard: Market, Customer & Product Performance Insights**
-An interactive data visualization solution built to analyze multi-year sales data—focusing on revenue trends, regional performance, customer contribution, and product-level insights.
+## 📌 Project Overview
 
-## 2. Short Description / Purpose
+The Sales Dashboard provides a consolidated view of business sales performance across markets, customers, and products. It helps stakeholders monitor key performance indicators (KPIs), identify top performers, evaluate revenue trends, and support data-driven business decisions.
 
-The Sales Dashboard is a structured and analytical reporting tool designed to monitor sales performance across different markets, customers, and products over time.
-It enables stakeholders to quickly identify trends, top performers, and areas requiring strategic attention.
+## 🛠️ Tech Stack
 
-## 3. Tech Stack
+- **Power BI Desktop** — Dashboard development and visualization
+- **Power Query** — Data cleaning, transformation, and preprocessing
+- **DAX** — KPI calculations, revenue measures, and time-based analysis
+- **Data Modeling** — Relationships across sales, customers, products, and markets
+- **File Formats** — Power BI `.pbix` and dashboard preview `.png`
 
-The dashboard was built using the following tools and technologies:
+## 📂 Data Source
 
-* 📊 **Power BI Desktop** – Primary platform for data visualization and dashboard creation
-* 📂 **Power Query** – Data cleaning, transformation, and preprocessing
-* 🧠 **DAX (Data Analysis Expressions)** – Measures for KPIs, revenue calculations, and time-based analysis
-* 📝 **Data Modeling** – Relationships between sales, customers, products, and markets for cross-filtering
-* 📁 **File Format** – `.pbix` for development and `.png` for dashboard preview
+**Source:** Sample sales transaction dataset
 
-## 4. Data Source
+The dataset includes:
+- Order dates across multiple years
+- Market and city-level sales information
+- Customer-level revenue contributions
+- Product-wise revenue and sales quantities
 
-**Source:** Internal / sample sales transaction dataset
+The dashboard analyzes historical sales performance from **2017 to 2020**.
 
-The dataset contains structured sales records with:
+## 🎯 Business Objectives
 
-* Order date (monthly and yearly granularity)
-* Market and city-level sales data
-* Customer-level revenue contribution
-* Product-wise revenue and quantity sold
+- Monitor overall sales performance through key KPIs.
+- Compare revenue across different markets.
+- Identify high-value customers and top-performing products.
+- Analyze sales trends and historical fluctuations.
+- Support market, customer, and product strategy decisions.
 
-The data spans multiple years, enabling trend and performance analysis over time.
+## 📈 Dashboard Features
 
-## 5. Features / Highlights
+### 1. Key Performance Indicators (KPIs)
 
-### Business Problem
+- **Total Revenue:** 984.81M
+- **Total Sales Quantity:** 2M
 
-Organizations often struggle to gain a clear, consolidated view of sales performance across multiple markets and products.
-Key questions such as:
+These KPIs provide a high-level overview of the sales represented in the dashboard.
 
-* Which markets generate the highest revenue?
-* Who are the top revenue-contributing customers?
-* Which products drive the majority of sales?
-* How is revenue trending over time?
+### 2. Revenue Trend Analysis
 
-…are difficult to answer efficiently using raw transactional data.
+A line chart tracks revenue from 2017 to 2020, helping users explore historical growth patterns, fluctuations, and potential seasonal trends.
 
-## Goal of the Dashboard
+### 3. Revenue by Market
 
-To deliver an interactive and insight-driven dashboard that:
+A bar chart compares revenue across cities and markets, identifying **Delhi NCR** as the top-performing market in the dashboard.
 
-* Tracks overall sales performance using key KPIs
-* Enables market-wise, customer-wise, and product-wise analysis
-* Highlights revenue trends and performance fluctuations over time
-* Supports strategic planning and performance optimization
+### 4. Sales Quantity by Market
 
-### Walkthrough of Key Visuals
+Visualizes the quantity of products sold across markets to help compare sales volume with revenue contribution.
 
-**Key KPIs (Top Section)**
+### 5. Revenue by Customers
 
-* 💰 Total Revenue: **984.81M**
-* 📦 Total Sales Quantity: **2M**
+A horizontal bar chart highlights customers contributing the most revenue and helps reveal customer-level revenue concentration.
 
-**Revenue Trend (Line Chart)**
+### 6. Revenue by Products
 
-* Displays revenue performance over multiple years (2017–2020)
-* Highlights growth patterns, seasonality, and revenue declines
+A bar chart compares product-level revenue to identify top contributors and products with lower revenue contributions.
 
-**Revenue by Market (Bar Chart)**
+## 💡 Business Insights
 
-* Compares revenue contribution across cities
-* Identifies **Delhi NCR** as the top-performing market
+- **Market Performance:** Identify leading and lower-performing markets for targeted business strategies.
+- **Customer Analysis:** Understand revenue contribution and prioritize high-value customer relationships.
+- **Product Performance:** Compare product-level revenue to support product and sales planning.
+- **Trend Monitoring:** Explore historical sales movements to support informed decision-making.
 
-**Sales Quantity by Market (Bar Chart)**
+## 🔄 Project Workflow
 
-* Shows distribution of units sold by market
-* Helps evaluate volume vs. revenue performance
+1. Import the sales transaction dataset into Power BI Desktop.
+2. Clean and transform the data using Power Query.
+3. Establish data relationships through data modeling.
+4. Create relevant measures using DAX.
+5. Build interactive KPI cards, charts, and visualizations.
+6. Analyze sales performance across markets, customers, products, and time.
 
-**Revenue by Customers (Horizontal Bar Chart)**
+## 🖼️ Dashboard Preview
 
-* Highlights top revenue-generating customers
-* Reveals revenue concentration among key clients
+![Sales Dashboard Preview](https://github.com/user-attachments/assets/c627d795-bacb-4c42-b749-22c3c779ac0e)
 
-**Revenue by Products (Bar Chart)**
+## 🚀 Future Enhancements
 
-* Displays product-level revenue contribution
-* Identifies top-selling and underperforming products
+- Add year-over-year revenue comparisons.
+- Include profit and profit-margin analysis if the required data is available.
+- Add drill-through pages and advanced filtering.
+- Incorporate sales forecasting and additional performance indicators.
+- Publish an online interactive dashboard when deployment is available.
 
-### Business Impact & Insights
+## 👨‍💻 Author
 
-* **Market Optimization:** Identifies high-performing and underperforming markets for targeted strategies
-* **Customer Focus:** Enables prioritization of high-value customers
-* **Product Strategy:** Helps assess which products contribute most to revenue
-* **Trend Analysis:** Supports proactive decision-making based on historical performance
+**Parth Prakash Varute**
 
-## 6. 🖼️ Screenshots / Demo
+Aspiring Data Analyst | Power BI | SQL | Python | Data Visualization
 
-**Dashboard Preview:**
-<img width="1162" height="654" alt="image" src="https://github.com/user-attachments/assets/c627d795-bacb-4c42-b749-22c3c779ac0e" />
+- **GitHub:** https://github.com/parthvarute09
+- **LinkedIn:** https://linkedin.com/in/parth-varute-49516a332
 
+## ⚠️ Disclaimer
+
+This project is intended for educational and business analytics purposes. Insights are based on the available sample sales dataset and should be interpreted in that context.
+
+---
+
+⭐ If you find this project useful, consider starring the repository!
